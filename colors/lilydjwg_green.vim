@@ -23,8 +23,8 @@ hi DiffChange guifg=black guibg=darkgreen ctermfg=16  cterm=none
 hi DiffDelete gui=bold guifg=black guibg=coral ctermfg=16  cterm=bold
 hi DiffText gui=bold guifg=black guibg=olivedrab ctermfg=16  cterm=bold
 hi Directory guifg=#ff99ff guibg=#66ffcc ctermfg=213  cterm=none
-hi Error gui=underline guifg=red guibg=darkblue ctermfg=196  cterm=underline
-hi ErrorMsg guifg=orange guibg=darkblue ctermfg=214  cterm=none
+hi Error gui=underline guifg=red guibg=yellow cterm=underline
+hi ErrorMsg guifg=orange ctermfg=214  cterm=none
 hi FoldColumn guifg=#b6c2ff guibg=#a4a4ff ctermfg=147  cterm=none
 hi Folded guifg=#7450ff guibg=#9bc4d1 ctermfg=99  cterm=none
 hi Identifier guifg=#986CFF guibg=#d5ecd8 ctermfg=99  cterm=none
@@ -63,7 +63,7 @@ hi Underlined gui=underline guifg=#0088C5 guibg=#aef0da ctermfg=32  cterm=underl
 hi VertSplit gui=reverse guifg=#00c4ff guibg=blue ctermfg=45  cterm=reverse
 hi Visual guifg=#d5ecd8 guibg=#a4a4ff ctermbg=148 ctermfg=8 cterm=none
 hi VisualNOS gui=bold,underline  cterm=bold,underline
-hi WarningMsg guifg=cyan guibg=darkblue ctermfg=51  cterm=none
+hi WarningMsg guifg=cyan ctermfg=51  cterm=none
 hi WildMenu guifg=black guibg=yellow ctermfg=16  cterm=none
 hi link Boolean Normal
 hi link Character Constant
