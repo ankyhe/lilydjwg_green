@@ -16,7 +16,7 @@ hi Comment guifg=#05bcc8 guibg=#d5ecd8 ctermfg=242  cterm=none
 hi Constant guifg=#10a303 guibg=#d5ecd8 ctermfg=34  cterm=none
 hi Cursor gui=bold guifg=#ff68d1 guibg=#00c4ff ctermfg=206  cterm=bold
 hi CursorIM gui=None  cterm=none
-hi CursorLine guibg=lightcyan  ctermbg=59 cterm=none
+hi CursorLine guibg=lightcyan  ctermbg=lightcyan cterm=none
 hi CursorLineNr guifg=#ff64cb guibg=lightcyan ctermfg=206  cterm=none
 hi DiffAdd guifg=black guibg=slateblue ctermfg=16  cterm=none
 hi DiffChange guifg=black guibg=darkgreen ctermfg=16  cterm=none
@@ -52,7 +52,7 @@ hi SpellLocal gui=undercurl  cterm=undercurl
 hi SpellRare gui=undercurl  cterm=undercurl
 hi Statement gui=bold guifg=#d86868 guibg=#d5ecd8 ctermfg=167  cterm=bold
 hi StatusLine gui=reverse guifg=#00c4ff guibg=black ctermfg=45  cterm=reverse
-hi StatusLineNC gui=reverse guifg=#a4a4ff guibg=#5f4d0e ctermfg=147  cterm=reverse
+hi StatusLineNC gui=reverse guifg=#a4a4ff guibg=#5f4d0e ctermfg=80  cterm=reverse
 hi TabLine guifg=#ffffc8 guibg=#a4a4ff ctermfg=230  cterm=none
 hi TabLineFill gui=reverse guifg=#9cffee ctermfg=159  cterm=reverse
 hi TabLineSel gui=bold,underline guifg=#3488ff guibg=#d5ecd8 ctermfg=69  cterm=bold,underline
